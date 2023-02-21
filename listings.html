@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Listings | Real Estate Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="listings.css">
+</head>
+<body>
+	<header>
+		<h1>Real Estate Website</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="listings.html">Listings</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="search">
+			<form>
+				<label for="property-type">Property Type:</label>
+				<select id="property-type" name="property-type">
+					<option value="">Any</option>
+					<option value="house">House</option>
+					<option value="apartment">Apartment</option>
+					<option value="condo">Condo</option>
+				</select>
+
+				<label for="min-price">Min Price:</label>
+				<input type="number" id="min-price" name="min-price" min="0">
+
+				<label for="max-price">Max Price:</label>
+				<input type="number" id="max-price" name="max-price" min="0">
+
+				<input type="submit" value="Search">
+			</form>
+		</section>
+
+		<section id="listings">
+			<div class="listing">
+				<img src="listing1.jpg" alt="Listing 1">
+				<h3>Beautiful 3-Bedroom House</h3>
+				<p>$500,000</p>
+				<a href="#">View Details</a>
+			</div>
+			<div class="listing">
+				<img src="listing2.jpg" alt="Listing 2">
+				<h3>Spacious 2-Bedroom Apartment</h3>
+				<p>$300,000</p>
+				<a href="#">View Details</a>
+			</div>
+			<div class="listing">
+				<img src="listing3.jpg" alt="Listing 3">
+				<h3>Cozy Studio Apartment</h3>
+				<p>$150,000</p>
+				<a href="#">View Details</a>
+			</div>
+			<div class="listing">
+				<img src="listing4.jpg" alt="Listing 4">
+				<h3>Luxurious 5-Bedroom House</h3>
+				<p>$1,000,000</p>
+				<a href="#">View Details</a>
+			</div>
+			<div class="listing">
+				<img src="listing5.jpg" alt="Listing 5">
+				<h3>Modern 2-Bedroom Apartment</h3>
+				<p>$400,000</p>
+				<a href="#">View Details</a>
+			</div>
+			<div class="listing">
+				<img src="listing6.jpg" alt="Listing 6">
+				<h3>Charming 1-Bedroom House</h3>
+				<p>$250,000</p>
+				<a href="#">View Details</a>
+			</div>
+		</section>
+	</main>
+
+    <footer>
+		<p>&copy; 2023 Real Estate Website</p>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="listings.html">Listings</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</footer>

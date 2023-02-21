@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Real Estate Website</title>
+	<link rel="stylesheet" type="text/css" href="web.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+	<script>
+		$(document).ready(function(){
+			$('.slider').slick({
+				autoplay: true,
+				arrows: false,
+				dots: true
+			});
+		});
+	</script>
+</head>
+<body>
+	<header>
+		<h1>Real Estate Website</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="listings.html">Listings</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="slider">
+			<div>
+				<img src="img/property1.jpg" alt="Property 1">
+			</div>
+			<div>
+				<img src="img/property2.jpg" alt="Property 2">
+			</div>
+			<div>
+				<img src="img/property3.jpg" alt="Property 3">
+			</div>
+		</section>
+
+		<section class="featured-listings">
+			<h2>Featured Listings</h2>
+			<div class="listing">
+				<img src="img/listing1.jpg" alt="Listing 1">
+				<h3>Property 1</h3>
+				<p>3 Bedrooms, 2 Bathrooms</p>
+				<p>Price: $500,000</p>
+			</div>
+			<div class="listing">
+				<img src="img/listing2.jpg" alt="Listing 2">
+				<h3>Property 2</h3>
+				<p>4 Bedrooms, 3 Bathrooms</p>
+				<p>Price: $700,000</p>
+			</div>
+			<div class="listing">
+				<img src="img/listing3.jpg" alt="Listing 3">
+				<h3>Property 3</h3>
+				<p>5 Bedrooms, 4 Bathrooms</p>
+				<p>Price: $900,000</p>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Real Estate Website</p>
+		
+	</footer>
+</body>
+</html>
